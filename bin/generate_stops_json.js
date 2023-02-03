@@ -50,7 +50,7 @@ async function fetchBusStops() {
         }
 
         console.log("Bus route id: " + busRouteId);
-        
+
         let response = await axios.post(BASE_URI + "/TI_FixedRoute_Line", requestBody);
         let responseBody = response.data;
 
