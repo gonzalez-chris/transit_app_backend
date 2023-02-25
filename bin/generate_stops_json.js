@@ -1,5 +1,5 @@
-const axios = require('axios');
-const fs = require('fs');
+import axios from 'axios';
+import fs from 'fs';
 
 const BASE_URI = "https://realtime.londontransit.ca";
 
